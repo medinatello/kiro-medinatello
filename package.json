@@ -1,7 +1,11 @@
 {
   "name": "kiro-medinatello",
   "displayName": "kiro-medinatello",
-  "description": "",
+  "description": "kiro-medinatello color theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medinatello/kiro-medinatello.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.103.0"

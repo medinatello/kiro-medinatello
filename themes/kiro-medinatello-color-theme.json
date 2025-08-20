@@ -2,7 +2,9 @@
 	"name": "kiro-medinatello",
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting":true,
 	"colors": {
+		"editorBracketHighlight.foreground1": "#BF7CFF",
 		"editor.background": "#0E0D13",
 		"editor.foreground": "#E9E7F1",
 		"editor.lineHighlightBackground": "#1A1722",
@@ -30,7 +32,7 @@
 		"tab.activeForeground": "#F2ECFF",
 		"tab.inactiveForeground": "#B9AFDA",
 		"panel.background": "#0F0E15",
-		"panel.border": "#2B2142",
+		"panel.border": "#8E5BFF",
 	
 		"list.activeSelectionBackground": "#2D214B",
 		"list.hoverBackground": "#1A1526",
@@ -46,7 +48,10 @@
 		"terminal.ansiCyan": "#6ED6E8",
 		"terminal.ansiMagenta": "#E07CFF",
 		"terminal.ansiYellow": "#EFD080",
-		"terminal.background": "#0E0D13"
+		"terminal.background": "#0E0D13",
+		"editorGroup.border": "#8E5BFF",
+		"sideBar.border": "#8E5BFF",
+		"tab.border": "#8E5BFF"
 	  },
 	"tokenColors": [
 		{ "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#6B6480" } },
