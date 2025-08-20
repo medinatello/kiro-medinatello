@@ -2,17 +2,25 @@
   "name": "kiro-medinatello",
   "displayName": "kiro-medinatello",
   "description": "kiro-medinatello color theme",
+  "publisher": "medinatello",
+  "author": {
+    "name": "medinatello",
+    "email": "medinatello@gmail.com",
+    "url": "https://github.com/medinatello"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/medinatello/kiro-medinatello.git"
   },
-  "version": "0.0.1",
+  "license":"MIT",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.103.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
