@@ -1,0 +1,21 @@
+{
+  "name": "kiro-medinatello",
+  "displayName": "kiro-medinatello",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "kiro-medinatello",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kiro-medinatello-color-theme.json"
+      }
+    ]
+  }
+}
