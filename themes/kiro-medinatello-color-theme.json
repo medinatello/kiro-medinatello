@@ -6,15 +6,15 @@
   
 	"colors": {
 	  /* Accento y bordes base */
-	  "focusBorder": "#8E5BFF",
+	  "focusBorder": "#B366FF",
 	  "selection.background": "#3C2A6748",
-	  "contrastActiveBorder": "#8E5BFF",
+	  "contrastActiveBorder": "#B366FF",
   
 	  /* Editor */
-	  "editor.background": "#0E0D13",
+	  "editor.background": "#2D1B3D",
 	  "editor.foreground": "#E9E7F1",
 	  "editor.lineHighlightBackground": "#1A1722",
-	  "editor.selectionBackground": "#3C2A67",
+	  "editor.selectionBackground": "#A47CFF44",
 	  "editor.inactiveSelectionBackground": "#3C2A6726",
 	  "editor.findMatchBackground": "#FFD08A33",
 	  "editor.findMatchHighlightBackground": "#FFD08A22",
@@ -51,13 +51,13 @@
 	  /* Minimap */
 	  "minimap.selectionHighlight": "#3C2A6780",
 	  "minimap.findMatchHighlight": "#FFD08A80",
-	  "minimap.background": "#0E0D13",
+	  "minimap.background": "#2D1B3D",
   
 	  /* Widgets del editor (hover, suggest, etc.) */
-	  "editorWidget.background": "#100E17",
+	  "editorWidget.background": "#2D1B3D",
 	  "editorWidget.foreground": "#E9E7F1",
 	  "editorWidget.border": "#2B2142",
-	  "editorSuggestWidget.background": "#100E17",
+	  "editorSuggestWidget.background": "#2D1B3D",
 	  "editorSuggestWidget.border": "#2B2142",
 	  "editorSuggestWidget.selectedBackground": "#2D214B",
   
@@ -72,34 +72,33 @@
 	  "list.highlightForeground": "#FFD08A",
   
 	  /* Activity bar / Side bar / Title bar */
-	  "sideBar.background": "#0F0E15",
+	  "sideBar.background": "#2D1B3D",
 	  "sideBar.foreground": "#CFC9E6",
-	  "sideBarSectionHeader.background": "#120F1B",
-  
-	  "activityBar.background": "#120F1B",
+	  "sideBarSectionHeader.background": "#1A0E0E",
+
+	  "activityBar.background": "#2D1B3D",
 	  "activityBar.foreground": "#D6C8FF",
 	  "activityBar.border": "#2B2142",
 	  "activityBarBadge.background": "#8E5BFF",
 	  "activityBarBadge.foreground": "#100E17",
   
-	  "titleBar.activeBackground": "#110F19",
+	  "titleBar.activeBackground": "#1A0E0E",
 	  "titleBar.activeForeground": "#DAD3F0",
-	  "titleBar.inactiveBackground": "#0F0E15",
+	  "titleBar.inactiveBackground": "#1A0E0E",
 	  "titleBar.inactiveForeground": "#B9AFDA",
   
 	  /* Tabs y grupos de editor */
-	  "tab.activeBackground": "#171225",
+	  "tab.activeBackground": "#1A0E0E",
 	  "tab.activeForeground": "#F2ECFF",
-	  "tab.inactiveBackground": "#110F19",
+	  "tab.inactiveBackground": "#1A0E0E",
 	  "tab.inactiveForeground": "#B9AFDA",
 	  "tab.hoverBackground": "#1B1630",
   
 	  /* Paneles y barra de estado */
-	  "panel.background": "#0F0E15",
-	  "panelTitle.activeForeground": "#F2ECFF",
-	  "panelTitle.inactiveForeground": "#B9AFDA",
-  
-	  "statusBar.background": "#140F22",
+	  "panel.background": "#1A0E0E",
+
+
+	  "statusBar.background": "#1A0E0E",
 	  "statusBar.foreground": "#CFC9E6",
 	  "statusBar.noFolderBackground": "#1A1430",
 	  "statusBar.debuggingBackground": "#7C55F6",
@@ -133,11 +132,11 @@
 	  "scrollbarSlider.activeBackground": "#6B648088",
   
 	  /* Terminal y ANSI completa */
-	  "terminal.background": "#0E0D13",
+	  "terminal.background": "#2D1B3D",
 	  "terminal.foreground": "#E9E7F1",
 	  "terminalCursor.foreground": "#BF7CFF",
   
-	  "terminal.ansiBlack": "#1A1526",
+	  "terminal.ansiBlack": "#2D1B3D",
 	  "terminal.ansiRed": "#FF778F",
 	  "terminal.ansiGreen": "#5CE3B9",
 	  "terminal.ansiYellow": "#EFD080",
@@ -165,22 +164,25 @@
 	  "diffEditor.removedTextBackground": "#FF9BB620",
 	  "diffEditor.border": "#2B2142",
 
-	  "panel.border": "#8E5BFF",
+	  "panel.border": "#B366FF",
 
 	  /* Sidebar con borde morado */
-	  "sideBar.border": "#8E5BFF",
+	  "sideBar.border": "#B366FF",
 	
 	  /* Editor group (entre splits) */
-	  "editorGroup.border": "#8E5BFF",
+	  "editorGroup.border": "#B366FF",
 	
 	  /* Tabs con borde morado arriba (queda más grueso visualmente) */
-	  "tab.activeBorderTop": "#8E5BFF",
-	  "tab.border": "#8E5BFF",
+	  "tab.activeBorderTop": "#B366FF",
+	  "tab.border": "#B366FF",
 	
 	  /* Status bar (separación superior) */
-	  "statusBar.border": "#8E5BFF",
+	  "statusBar.border": "#B366FF",
 
-	  "tab.activeBorder": "#8E5BFF",
+	  "tab.activeBorder": "#B366FF",
+
+	  "panelTitle.activeForeground": "#C49BFF",
+"panelTitle.inactiveForeground": "#7C6B99"
 	},
   
 	"tokenColors": [
