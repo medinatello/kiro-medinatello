@@ -1,7 +1,8 @@
 {
-  "name": "kiro-medinatello",
-  "displayName": "kiro-medinatello",
-  "description": "kiro-medinatello color theme",
+  "name": "orquidea-morada",
+  "displayName": "Orquídea Morada",
+  "description": "Tema venezolano inspirado en las hermosas orquídeas moradas. Incluye versiones oscura y clara con alto contraste y elegantes acentos violetas.",
+  "keywords": ["theme", "purple", "dark", "light", "contrast", "morado", "orquidea", "venezuela", "orchid", "violet"],
   "publisher": "medinatello",
   "author": {
     "name": "medinatello",
@@ -13,20 +14,25 @@
     "url": "https://github.com/medinatello/kiro-medinatello.git"
   },
   "license":"MIT",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.103.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "icon.png",
+  "icon": "orquidea.png",
   "contributes": {
     "themes": [
       {
-        "label": "kiro-medinatello",
+        "label": "Orquídea Morada Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/kiro-medinatello-color-theme.json"
+        "path": "./themes/orquidea-morada-dark-theme.json"
+      },
+      {
+        "label": "Orquídea Morada Light",
+        "uiTheme": "vs",
+        "path": "./themes/orquidea-morada-light-theme.json"
       }
     ]
   }

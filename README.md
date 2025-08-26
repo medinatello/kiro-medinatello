@@ -1,42 +1,86 @@
-# kiro-medinatello README
+# 🌺 Orquídea Morada Theme
 
-## Recomendación para aumentar el tamaño de fuente
+Un hermoso tema para VS Code inspirado en las elegantes orquídeas moradas de Venezuela 🇻🇪. Este tema combina la belleza natural de las orquídeas con un diseño moderno y contrastante, perfecto para desarrolladores que buscan una experiencia visual única.
 
-Para mejorar la legibilidad, puedes aumentar el tamaño de fuente del editor desde la configuración de VS Code:
+## ✨ Características
 
-1. Ve a Preferencias > Configuración.
-2. Busca `editor.fontSize`.
-3. Sube el valor (por ejemplo, de 14 a 16 o 18).
+- 🌙 **Tema Oscuro**: Fondo profundo con acentos morados vibrantes
+- ☀️ **Tema Claro**: Fondo claro con toques morados elegantes
+- 💜 **Alto Contraste**: Excelente legibilidad en ambas versiones
+- 🎨 **Sintaxis Rica**: Colores cuidadosamente seleccionados para cada elemento
+- 🖼️ **Bordes Distintivos**: Acentos morados que definen la interfaz
 
-### Para aumentar la fuente de la lista de archivos (explorador):
+## 🎯 Versiones Disponibles
 
-1. Ve a Preferencias > Configuración.
-2. Busca `workbench.tree.fontSize`.
-3. Sube el valor (por ejemplo, de 12 a 14 o 16).
+### 🌙 Orquídea Morada Dark
+Perfecto para sesiones de código nocturnas o cuando prefieres un ambiente más relajado para los ojos.
 
-### Para aumentar todas las fuentes del interfaz:
+### ☀️ Orquídea Morada Light  
+Ideal para trabajar durante el día o cuando necesitas mayor claridad visual.
 
-1. Ve a Preferencias > Configuración.
-2. Busca `workbench.fontsize`.
-3. Sube el valor para afectar menús, pestañas y otros elementos del UI.
+## 🚀 Instalación
 
-Esto mejorará la legibilidad en toda la interfaz de VS Code.
+1. Abre VS Code
+2. Ve a Extensiones (`Ctrl+Shift+X`)
+3. Busca "Orquídea Morada"
+4. Haz clic en "Instalar"
+5. Ve a `Archivo > Preferencias > Tema de Color`
+6. Selecciona "Orquídea Morada Dark" o "Orquídea Morada Light"
 
-## Working with Markdown
+## 💡 Recomendaciones de Configuración
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Para una experiencia óptima, considera ajustar el tamaño de fuente:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### Editor de Código
+```json
+"editor.fontSize": 16,
+"editor.lineHeight": 1.6
+```
 
-## For more information
+### Explorador de Archivos
+```json
+"workbench.tree.fontSize": 14
+```
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Interfaz General
+```json
+"workbench.fontsize": 13
+```
 
-**Enjoy!**
+## 🎨 Paleta de Colores
 
-License
+### Tema Oscuro
+- **Fondo Principal**: `#2D1B3D`
+- **Texto Principal**: `#E9E7F1`
+- **Acento Morado**: `#B366FF`
+- **Selección**: `#A47CFF44`
 
-MIT License - see the LICENSE file for details.
+### Tema Claro
+- **Fondo Principal**: `#FDFCFF`
+- **Texto Principal**: `#2D1B3D`
+- **Acento Morado**: `#8E5BFF`
+- **Selección**: `#8E5BFF22`
+
+## 🌺 Inspiración Venezolana
+
+Este tema está inspirado en las hermosas orquídeas moradas que crecen en los paisajes venezolanos. La orquídea, siendo la flor nacional de Venezuela, representa elegancia, belleza y fortaleza - cualidades que buscamos reflejar en este tema.
+
+## 🤝 Contribuciones
+
+¿Tienes sugerencias o encontraste algún problema? ¡Nos encantaría saber de ti!
+
+- 🐛 [Reportar Bugs](https://github.com/medinatello/kiro-medinatello/issues)
+- 💡 [Sugerir Mejoras](https://github.com/medinatello/kiro-medinatello/issues)
+- 🔧 [Contribuir al Código](https://github.com/medinatello/kiro-medinatello/pulls)
+
+## 📄 Licencia
+
+MIT License - consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## 🙏 Agradecimientos
+
+Creado con 💜 por [medinatello](https://github.com/medinatello)
+
+---
+
+**¡Disfruta programando con Orquídea Morada!** 🌺✨
