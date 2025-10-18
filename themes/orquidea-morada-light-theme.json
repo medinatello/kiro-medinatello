@@ -30,7 +30,7 @@
 	  "contrastBorder": "#10B981",  /* VERDE para bordes generales */
   
 	  /* Editor - MORADO para elementos activos */
-	  "editor.background": "#FBF8F3",
+	  "editor.background": "#D8BFD8",
 	  "editor.foreground": "#2D1B3D",
 	  "editor.lineHighlightBackground": "#F8F6FF",
 	  "editor.lineHighlightBorder": "#E8E3FF",
@@ -179,7 +179,7 @@
 	  "peekViewResult.selectionBackground": "#E8E3FF",  /* LAVANDA */
 	  "peekViewResult.selectionForeground": "#2D1B3D",
 	  "peekViewResult.matchHighlightBackground": "#D6CEFF",  /* LAVANDA más clara */
-	  "quickInput.background": "#FBF8F3",
+	  "quickInput.background": "#C9ADDD",
 	  "quickInput.foreground": "#2D1B3D",
 	  "quickInputList.focusBackground": "#E8E3FF",  /* LAVANDA */
 	  "quickInputList.focusForeground": "#2D1B3D",
@@ -299,3 +299,4 @@
 	  "static": "#7C55F6"
 	}
   }
+

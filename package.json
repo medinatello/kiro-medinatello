@@ -25,6 +25,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Orquídea Morada Dark (High Contrast)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/orquidea-morada-dark-high-contrast-theme.json"
+      },
+      {
         "label": "Orquídea Morada Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/orquidea-morada-dark-theme.json"
@@ -33,6 +38,11 @@
         "label": "Orquídea Morada Light",
         "uiTheme": "vs",
         "path": "./themes/orquidea-morada-light-theme.json"
+      },
+      {
+        "label": "Orquídea Morada Light (High Contrast)",
+        "uiTheme": "vs",
+        "path": "./themes/orquidea-morada-light-high-contrast-theme.json"
       }
     ]
   }

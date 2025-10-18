@@ -7,6 +7,7 @@
 	"colors": {
 	  /* Accento y bordes base */
 	  "focusBorder": "#B366FF",
+	  "contrastBorder": "#FFFFFF", /* DEBUG: White */
 	  "selection.background": "#3C2A6748",
 	  "contrastActiveBorder": "#B366FF",
   
@@ -82,7 +83,7 @@
 	  "activityBarBadge.background": "#8E5BFF",
 	  "activityBarBadge.foreground": "#100E17",
   
-	  "titleBar.activeBackground": "#1A0E0E",
+	  "titleBar.activeBackground": "#161020",
 	  "titleBar.activeForeground": "#DAD3F0",
 	  "titleBar.inactiveBackground": "#1A0E0E",
 	  "titleBar.inactiveForeground": "#B9AFDA",
@@ -122,7 +123,7 @@
 	  "peekView.border": "#8E5BFF",
 	  "peekViewTitle.background": "#120F1B",
 	  "peekViewEditor.background": "#0E0D13",
-	  "quickInput.background": "#100E17",
+	  "quickInput.background": "#3A2A55",
 	  "notificationCenterHeader.background": "#110F19",
 	  "notificationToast.border": "#8E5BFF",
   
@@ -215,8 +216,7 @@
   
 	  "string": "#FFD08A",
 	  "number": "#FF9BB6",
-	  "boolean": "#FF9BB6",
-	  "regexp": "#FFD08A",
+	  "boolean": "#FF9BB6",	  "regexp": "#FFD08A",
   
 	  "comment": "#6B6480",
 	  "operator": "#CEC6E6",
