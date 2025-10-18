@@ -3,26 +3,52 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "light",
 	"semanticHighlighting": true,
-  
+
+	/* ========================================
+	   PALETA DE COLORES (Referencia)
+	   ========================================
+	   ACTIVOS:   #8E5BFF (Morado principal)
+	              #5F47D8 (Morado oscuro)
+	              #7C55F6 (Morado medio)
+
+	   INACTIVOS: #10B981 (Verde menta)
+	              #34D399 (Verde medio)
+
+	   FONDOS:    #FBF8F3 (Beige Lavanda - fondo principal)
+	              #E8E3FF (Lavanda suave - highlights)
+	              #D1FAE5 (Verde suave - selecciones inactivas)
+
+	   ACENTO:    #17A2B8 (Cian-verdoso - info/tipos)
+	              #20C997 (Cian brillante - elementos destacados)
+	   ======================================== */
+
 	"colors": {
-	  /* Accento y bordes base - mantienen el morado característico */
-	  "focusBorder": "#8E5BFF",
-	  "selection.background": "#8E5BFF20",
+	  /* Accento y bordes base - MORADO para activos */
+	  "focusBorder": "#8E5BFF",  /* MORADO para foco general */
+	  "selection.background": "#E8E3FF",  /* LAVANDA para selecciones */
 	  "contrastActiveBorder": "#8E5BFF",
+	  "contrastBorder": "#10B981",  /* VERDE para bordes generales */
   
-	  /* Editor - base clara con acentos morados */
-	  "editor.background": "#FDFCFF",
+	  /* Editor - MORADO para elementos activos */
+	  "editor.background": "#FBF8F3",
 	  "editor.foreground": "#2D1B3D",
 	  "editor.lineHighlightBackground": "#F8F6FF",
-	  "editor.selectionBackground": "#8E5BFF22",
-	  "editor.inactiveSelectionBackground": "#8E5BFF12",
+	  "editor.lineHighlightBorder": "#E8E3FF",
+	  "editor.selectionBackground": "#E8E3FF",  /* LAVANDA */
+	  "editor.selectionHighlightBackground": "#E8E3FF80",
+	  "editor.inactiveSelectionBackground": "#D1FAE5",  /* VERDE inactivo */
 	  "editor.findMatchBackground": "#FFD08A55",
 	  "editor.findMatchHighlightBackground": "#FFD08A33",
-	  "editor.wordHighlightBackground": "#8E5BFF18",
-	  "editor.wordHighlightStrongBackground": "#8E5BFF25",
-	  "editor.hoverHighlightBackground": "#8E5BFF15",
-	  "editorLink.activeForeground": "#7C55F6",
-	  "editorCursor.foreground": "#8E5BFF",
+	  "editor.findMatchBorder": "#8E5BFF",  /* MORADO */
+	  "editor.findRangeHighlightBorder": "#8E5BFF",
+	  "editor.wordHighlightBackground": "#E8E3FF50",
+	  "editor.wordHighlightStrongBackground": "#E8E3FF",
+	  "editor.wordHighlightBorder": "#8E5BFF",
+	  "editor.wordHighlightStrongBorder": "#5F47D8",
+	  "editor.hoverHighlightBackground": "#E8E3FF50",
+	  "editorLink.activeForeground": "#8E5BFF",  /* MORADO */
+	  "editorCursor.foreground": "#8E5BFF",  /* Cursor MORADO */
+	  "editorCursor.background": "#FBF8F3",
   
 	  /* Indent guides - sutiles pero visibles */
 	  "editorIndentGuide.background1": "#E8E3FF",
@@ -39,46 +65,62 @@
   
 	  /* Brackets y pares - colores vibrantes pero legibles */
 	  "editorBracketHighlight.foreground1": "#198754",
-	  "editorBracketHighlight.foreground2": "#0066CC",
+	  "editorBracketHighlight.foreground2": "#17A2B8",  /* CIAN-VERDOSO en lugar de azul */
 	  "editorBracketHighlight.foreground3": "#E67E22",
 	  "editorBracketHighlight.unexpectedBracket.foreground": "#DC3545",
   
 	  /* Markers de problemas */
 	  "editorError.foreground": "#DC3545",
 	  "editorWarning.foreground": "#E67E22",
-	  "editorInfo.foreground": "#0066CC",
+	  "editorInfo.foreground": "#17A2B8",  /* CIAN-VERDOSO para info */
   
 	  /* Minimap */
 	  "minimap.selectionHighlight": "#8E5BFF40",
 	  "minimap.findMatchHighlight": "#FFD08A80",
-	  "minimap.background": "#FDFCFF",
+	  "minimap.background": "#FBF8F3",
   
-	  /* Widgets del editor */
-	  "editorWidget.background": "#FFFFFF",
+	  /* Widgets del editor - MORADO para selección */
+	  "editorWidget.background": "#FBF8F3",
 	  "editorWidget.foreground": "#2D1B3D",
-	  "editorWidget.border": "#C49BFF",
-	  "editorSuggestWidget.background": "#FFFFFF",
-	  "editorSuggestWidget.border": "#C49BFF",
-	  "editorSuggestWidget.selectedBackground": "#F4F1FF",
+	  "editorWidget.border": "#10B981",
+	  "editorWidget.resizeBorder": "#8E5BFF",  /* MORADO para resize */
+	  "editorSuggestWidget.background": "#FBF8F3",
+	  "editorSuggestWidget.border": "#10B981",
+	  "editorSuggestWidget.selectedBackground": "#E8E3FF",  /* LAVANDA */
+	  "editorSuggestWidget.selectedForeground": "#2D1B3D",
+	  "editorSuggestWidget.focusHighlightForeground": "#8E5BFF",  /* MORADO */
+	  "editorSuggestWidget.highlightForeground": "#8E5BFF",
   
-	  /* Listas y árbol */
-	  "list.activeSelectionBackground": "#E8E3FF",
+	  /* Listas y árbol - MORADO para selección activa */
+	  "list.activeSelectionBackground": "#E8E3FF",  /* LAVANDA */
 	  "list.activeSelectionForeground": "#2D1B3D",
-	  "list.focusBackground": "#F4F1FF",
+	  "list.focusBackground": "#E8E3FF",
 	  "list.focusForeground": "#2D1B3D",
-	  "list.hoverBackground": "#F8F6FF",
+	  "list.focusOutline": "#8E5BFF",  /* MORADO para foco */
+	  "list.hoverBackground": "#F4F1FF",  /* LAVANDA hover */
 	  "list.hoverForeground": "#2D1B3D",
-	  "list.inactiveSelectionBackground": "#F0EDFF",
-	  "list.highlightForeground": "#8E5BFF",
+	  "list.inactiveSelectionBackground": "#D1FAE5",  /* VERDE inactivo */
+	  "list.highlightForeground": "#8E5BFF",  /* MORADO para highlights */
+	  "list.inactiveFocusOutline": "#10B981",  /* VERDE para inactivos */
   
 	  /* Activity bar / Side bar / Title bar */
-	  "sideBar.background": "#FAFAFF",
+	  "sideBar.background": "#FBF8F3",
 	  "sideBar.foreground": "#4B3A73",
 	  "sideBarSectionHeader.background": "#F0EDFF",
 
-	  "activityBar.background": "#FAFAFF",
-	  "activityBar.foreground": "#5F47D8",
-	  "activityBar.border": "#C49BFF",
+	  /* Activity Bar - MORADO con inactivos VERDES */
+	  "activityBar.background": "#FBF8F3",
+
+	  /* Botón ACTIVO - MORADO brillante */
+	  "activityBar.foreground": "#8E5BFF",  /* MORADO para activos */
+	  "activityBar.border": "#10B981",  /* VERDE borde */
+	  "activityBar.activeBorder": "#8E5BFF",  /* MORADO */
+	  "activityBar.activeBackground": "#E8E3FF",  /* LAVANDA suave */
+	  "activityBar.activeFocusBorder": "#5F47D8",
+
+	  /* Botones INACTIVOS - VERDE visible */
+	  "activityBar.inactiveForeground": "#10B981",  /* VERDE para inactivos */
+
 	  "activityBarBadge.background": "#8E5BFF",
 	  "activityBarBadge.foreground": "#FFFFFF",
   
@@ -87,12 +129,14 @@
 	  "titleBar.inactiveBackground": "#F5F3FF",
 	  "titleBar.inactiveForeground": "#6B6480",
   
-	  /* Tabs y grupos de editor */
-	  "tab.activeBackground": "#FDFCFF",
-	  "tab.activeForeground": "#2D1B3D",
+	  /* Tabs y grupos de editor - MORADO para tabs activos */
+	  "tab.activeBackground": "#FBF8F3",
+	  "tab.activeForeground": "#8E5BFF",  /* MORADO para texto activo */
 	  "tab.inactiveBackground": "#F5F3FF",
-	  "tab.inactiveForeground": "#6B6480",
-	  "tab.hoverBackground": "#F8F6FF",
+	  "tab.inactiveForeground": "#10B981",  /* VERDE para inactivos */
+	  "tab.hoverBackground": "#F4F1FF",  /* LAVANDA hover */
+	  "tab.hoverBorder": "#8E5BFF",  /* MORADO al pasar el mouse */
+	  "tab.unfocusedHoverBorder": "#10B981",  /* VERDE hover sin foco */
   
 	  /* Paneles y barra de estado */
 	  "panel.background": "#F5F3FF",
@@ -103,27 +147,47 @@
 	  "statusBar.debuggingBackground": "#8E5BFF",
 	  "statusBar.debuggingForeground": "#FFFFFF",
   
-	  /* Botones, badges, inputs, dropdowns */
-	  "button.background": "#8E5BFF",
+	  /* Botones - MORADO para primarios, verde para secundarios */
+	  "button.background": "#8E5BFF",  /* MORADO para botón principal */
 	  "button.foreground": "#FFFFFF",
-	  "button.hoverBackground": "#7C55F6",
-  
-	  "badge.background": "#8E5BFF",
+	  "button.hoverBackground": "#7C55F6",  /* MORADO más oscuro hover */
+	  "button.border": "#8E5BFF",
+	  "button.secondaryBackground": "#D1FAE5",  /* VERDE suave secundario */
+	  "button.secondaryForeground": "#10B981",  /* Texto VERDE */
+	  "button.secondaryHoverBackground": "#A7F3D0",
+	  "button.secondaryBorder": "#10B981",
+
+	  "badge.background": "#8E5BFF",  /* MORADO */
 	  "badge.foreground": "#FFFFFF",
-  
-	  "input.background": "#FFFFFF",
+
+	  /* Inputs - MORADO para activo, verde para borde general */
+	  "input.background": "#FBF8F3",
 	  "input.foreground": "#2D1B3D",
-	  "input.border": "#C49BFF",
-	  "dropdown.background": "#FFFFFF",
-	  "dropdown.border": "#C49BFF",
+	  "input.border": "#10B981",  /* VERDE para borde normal */
+	  "inputOption.activeBorder": "#8E5BFF",  /* MORADO para opciones activas */
+	  "inputOption.activeBackground": "#E8E3FF",  /* LAVANDA */
+	  "inputOption.activeForeground": "#2D1B3D",
+	  "dropdown.background": "#FBF8F3",
+	  "dropdown.border": "#10B981",
   
-	  /* Peek, Quick input, Notificaciones */
-	  "peekView.border": "#8E5BFF",
+	  /* Peek, Quick input, Notificaciones - MORADO para selección */
+	  "peekView.border": "#10B981",
 	  "peekViewTitle.background": "#F0EDFF",
-	  "peekViewEditor.background": "#FDFCFF",
-	  "quickInput.background": "#FFFFFF",
+	  "peekViewEditor.background": "#FBF8F3",
+	  "peekViewEditorGutter.background": "#F5F3FF",
+	  "peekViewResult.background": "#FBF8F3",
+	  "peekViewResult.selectionBackground": "#E8E3FF",  /* LAVANDA */
+	  "peekViewResult.selectionForeground": "#2D1B3D",
+	  "peekViewResult.matchHighlightBackground": "#D6CEFF",  /* LAVANDA más clara */
+	  "quickInput.background": "#FBF8F3",
+	  "quickInput.foreground": "#2D1B3D",
+	  "quickInputList.focusBackground": "#E8E3FF",  /* LAVANDA */
+	  "quickInputList.focusForeground": "#2D1B3D",
+	  "quickInputList.focusIconForeground": "#8E5BFF",  /* MORADO */
 	  "notificationCenterHeader.background": "#F5F3FF",
-	  "notificationToast.border": "#8E5BFF",
+	  "notificationToast.border": "#10B981",
+	  "notifications.border": "#10B981",
+	  "notificationLink.foreground": "#8E5BFF",  /* MORADO para links */
   
 	  /* Scrollbars discretos pero visibles */
 	  "scrollbarSlider.background": "#D6C8FF55",
@@ -131,7 +195,7 @@
 	  "scrollbarSlider.activeBackground": "#C49BFF99",
   
 	  /* Terminal - mantiene legibilidad en fondo claro */
-	  "terminal.background": "#FDFCFF",
+	  "terminal.background": "#FBF8F3",
 	  "terminal.foreground": "#2D1B3D",
 	  "terminalCursor.foreground": "#8E5BFF",
   
@@ -139,7 +203,7 @@
 	  "terminal.ansiRed": "#DC3545",
 	  "terminal.ansiGreen": "#198754",
 	  "terminal.ansiYellow": "#E67E22",
-	  "terminal.ansiBlue": "#0066CC",
+	  "terminal.ansiBlue": "#17A2B8",  /* CIAN-VERDOSO armonioso */
 	  "terminal.ansiMagenta": "#8E5BFF",
 	  "terminal.ansiCyan": "#17A2B8",
 	  "terminal.ansiWhite": "#495057",
@@ -147,7 +211,7 @@
 	  "terminal.ansiBrightRed": "#FF5B71",
 	  "terminal.ansiBrightGreen": "#28A745",
 	  "terminal.ansiBrightYellow": "#FFC107",
-	  "terminal.ansiBrightBlue": "#007BFF",
+	  "terminal.ansiBrightBlue": "#20C997",  /* CIAN brillante armonioso */
 	  "terminal.ansiBrightMagenta": "#BBA8FF",
 	  "terminal.ansiBrightCyan": "#20C997",
 	  "terminal.ansiBrightWhite": "#343A40",
@@ -163,44 +227,53 @@
 	  "diffEditor.removedTextBackground": "#DC354520",
 	  "diffEditor.border": "#C49BFF",
 
-	  "panel.border": "#8E5BFF",
+	  "panel.border": "#10B981",
 
-	  /* Sidebar con borde morado */
-	  "sideBar.border": "#8E5BFF",
-	
-	  /* Editor group (entre splits) */
-	  "editorGroup.border": "#8E5BFF",
-	
-	  /* Tabs con borde morado */
-	  "tab.activeBorderTop": "#8E5BFF",
-	  "tab.border": "#E8E3FF",
-	
-	  /* Status bar */
-	  "statusBar.border": "#8E5BFF",
+	  /* Sidebar con bordes VERDES */
+	  "sideBar.border": "#10B981",
+	  "sideBarSectionHeader.border": "#10B981",
 
+	  /* Editor group (entre splits) - bordes VERDES */
+	  "editorGroup.border": "#10B981",
+	  "editorGroupHeader.border": "#10B981",
+	  "editorGroupHeader.tabsBorder": "#10B981",
+
+	  /* Tabs con bordes MORADOS para activos */
+	  "tab.activeBorderTop": "#8E5BFF",  /* MORADO para tab activo */
 	  "tab.activeBorder": "#8E5BFF",
+	  "tab.border": "#E8E3FF",
+	  "tab.lastPinnedBorder": "#10B981",
 
-	  "panelTitle.activeForeground": "#7C55F6",
-	  "panelTitle.inactiveForeground": "#B9AFDA"
+	  /* Status bar con bordes MORADOS para foco */
+	  "statusBar.border": "#10B981",
+	  "statusBar.focusBorder": "#8E5BFF",  /* MORADO para foco */
+	  "statusBarItem.focusBorder": "#8E5BFF",
+
+	  /* Panel con bordes MORADOS para activos */
+	  "panelTitle.activeBorder": "#8E5BFF",  /* MORADO para panel activo */
+	  "panelTitle.activeForeground": "#8E5BFF",
+	  "panelTitle.inactiveForeground": "#10B981",  /* VERDE para inactivos */
+	  "panelSection.border": "#10B981",
+	  "panelSectionHeader.border": "#10B981"
 	},
   
 	"tokenColors": [
-	  { "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#B9AFDA", "fontStyle": "italic" } },
+	  { "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#9D8DBF", "fontStyle": "italic" } },
 	  { "scope": ["keyword", "storage.type", "storage.modifier"], "settings": { "foreground": "#8E5BFF", "fontStyle": "bold" } },
-	  { "scope": ["entity.name.type", "support.type", "support.class", "support.type.primitive"], "settings": { "foreground": "#0066CC" } },
+	  { "scope": ["entity.name.type", "support.type", "support.class", "support.type.primitive"], "settings": { "foreground": "#17A2B8" } },
 	  { "scope": ["entity.name.function", "support.function", "meta.function-call"], "settings": { "foreground": "#198754" } },
-	  { "scope": ["variable", "meta.definition.variable", "meta.object-literal.key"], "settings": { "foreground": "#495057" } },
-	  { "scope": ["string", "constant.character.escape"], "settings": { "foreground": "#E67E22" } },
-	  { "scope": ["constant.numeric", "constant.language", "constant.other"], "settings": { "foreground": "#DC3545" } },
-	  { "scope": ["punctuation", "delimiter", "meta.brace"], "settings": { "foreground": "#6C757D" } },
+	  { "scope": ["variable", "meta.definition.variable", "meta.object-literal.key"], "settings": { "foreground": "#5A4A6A" } },
+	  { "scope": ["string", "constant.character.escape"], "settings": { "foreground": "#D97706" } },
+	  { "scope": ["constant.numeric", "constant.language", "constant.other"], "settings": { "foreground": "#E85D75" } },
+	  { "scope": ["punctuation", "delimiter", "meta.brace"], "settings": { "foreground": "#7D6B8F" } },
 	  { "scope": ["invalid", "invalid.illegal"], "settings": { "foreground": "#DC3545", "fontStyle": "bold underline" } }
 	],
   
 	"semanticTokenColors": {
-	  "namespace": "#0066CC",
-	  "type": "#0066CC",
-	  "class": "#0066CC",
-	  "struct": "#0066CC",
+	  "namespace": "#17A2B8",
+	  "type": "#17A2B8",
+	  "class": "#17A2B8",
+	  "struct": "#17A2B8",
 	  "enum": "#E67E22",
 	  "interface": "#198754",
 	  "typeParameter": "#198754",
@@ -208,17 +281,17 @@
 	  "function": "#198754",
 	  "method": "#198754",
 	  "macro": "#8E5BFF",
-	  "property": "#495057",
-	  "variable": "#495057",
-	  "parameter": "#495057",
+	  "property": "#5A4A6A",
+	  "variable": "#5A4A6A",
+	  "parameter": "#5A4A6A",
   
-	  "string": "#E67E22",
-	  "number": "#DC3545",
-	  "boolean": "#DC3545",
-	  "regexp": "#E67E22",
+	  "string": "#D97706",
+	  "number": "#E85D75",
+	  "boolean": "#E85D75",
+	  "regexp": "#D97706",
   
-	  "comment": "#B9AFDA",
-	  "operator": "#6C757D",
+	  "comment": "#9D8DBF",
+	  "operator": "#7D6B8F",
 	  "event": "#7C55F6",
   
 	  "deprecated": { "foreground": "#B9AFDA", "strikethrough": true },
